@@ -14,7 +14,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   // app.enableCors();
   app.enableCors({
-    origin: 'https://main--ornate-sprite-6016b0.netlify.app',
+    origin: 'https://shop.fudgedemoji.com',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: false,
   });
