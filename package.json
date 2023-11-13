@@ -21,8 +21,7 @@
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
     "init-render": "npm install && npm run build",
-    "start-nest":"nest start"
-
+    "start-nest": "nest start"
   },
   "dependencies": {
     "@nestjs-modules/mailer": "^1.9.1",
@@ -47,7 +46,8 @@
     "passport-jwt": "^4.0.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "streamifier": "^0.1.1"
+    "streamifier": "^0.1.1",
+    "vercel": "^32.5.3"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",
